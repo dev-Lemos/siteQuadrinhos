@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="icon" href="./images/fav-icon.png">
+  <link rel="stylesheet" href="./node_modules/bootstrap.css/bootstrap.css">
+  <link rel="import" href="modal.html">
+  <title>QUADRINHOS LEMOS </title>
+</head>
+
+<body>
+  <!--INÍCIO NAVBAR-->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03"
+      aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Alterna navegação">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <a class="navbar-brand" href="#"><img class="logo" src="./images/logotipo - quadrinhos.png"
+        alt="LOGOTIPO QUADRINHOS LEMOS"></a>
+
+    <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+      <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+        <li class="nav-item active">
+          <a class="nav-link" href="#">Home</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown"
+            aria-haspopup="true" aria-expanded="false">
+            HQs Antigas
+          </a>
+          <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+            <a class="dropdown-item" href="#" data-toggle="modal" data-target=".semLogin">Capitão América - Ameaça
+              Vermelha</a>
+            <a class="dropdown-item" href="#" data-toggle="modal" data-target=".semLogin">Capitão América - 50
+              Anos</a>
+            <a class="dropdown-item" href="#" data-toggle="modal" data-target=".semLogin">A Morte do Super Homem</a>
+            <a class="dropdown-item" href="#" data-toggle="modal" data-target=".semLogin">B.P.D.P.</a>
+            <a class="dropdown-item" href="#" data-toggle="modal" data-target=".semLogin">Godzilla‎</a>
+
+
+
+          </div>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown"
+            aria-haspopup="true" aria-expanded="false">
+            Mangás
+          </a>
+          <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+            <a class="dropdown-item" href="#" data-toggle="modal" data-target=".semLogin">One Piece</a>
+            <a class="dropdown-item" href="#" data-toggle="modal" data-target=".semLogin">Dragon Ball</a>
+            <a class="dropdown-item" href="#" data-toggle="modal" data-target=".semLogin">Death Note‎</a>
+            <a class="dropdown-item" href="#" data-toggle="modal" data-target=".semLogin">Bleach</a>
+            <a class="dropdown-item" href="#" data-toggle="modal" data-target=".semLogin">Naruto</a>
+            <a class="dropdown-item" href="#" data-toggle="modal" data-target=".semLogin">Slam Dunk</a>
+            <a class="dropdown-item" href="#" data-toggle="modal" data-target=".semLogin">The Gamer</a>
+            <a class="dropdown-item" href="#" data-toggle="modal" data-target=".semLogin">Yu-Gi-Oh</a>
+
+          </div>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown"
+            aria-haspopup="true" aria-expanded="false">
+            Infantis</a>
+          <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+            <a class="dropdown-item" href="#" data-toggle="modal" data-target=".semLogin">Turma da Mônica Jovem</a>
+            <a class="dropdown-item" href="#" data-toggle="modal" data-target=".semLogin">Turma da Mônica</a>
+          </div>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="#" data-toggle="modal" data-target=".sobreDesenvolvedor">Sobre o Desenvolvedor</a>
+
+          <!--MODAL SOBRE DESENVOLVEDOR-->
+          <div class="modal fade sobreDesenvolvedor">
+            <div class="modal-dialog modal-md">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <img src="images/leonardo_lemos.jpg" alt="Leonardo Lemos" width="40%" class="rounded-circle" />
+                  <div class="modal-body">
+                    <h4>LEONARDO LEMOS</h4>
+                    <div>
+                      <ul>
+                        <li>Jan 30, 1997</li>
+                        <li>Téc. Desenv. de Sistemas</li>
+                        <li>1º Módulo</li>
+                      </ul>
+                      <p>leonardo_lemos@outlook.com.br</p>
+                    </div>
+                    <div>
+                      <span>
+                        <a href="https://www.linkedin.com/in/leonardo-lemos-de-oliveira/" class="btn btn-info"
+                          target="_blank">LINKEDIN</a>
+                      </span>
+                      <span>
+                        <a href="https://github.com/dev-Lemos" class="btn btn-dark" target="_blank">GITHUB</a>
+                      </span>
+                      <span>
+                        <a href="#" class="btn btn-danger" data-dismiss="modal">x</a>
+                      </span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!--FIM MODAL SOBRE DESENVOLVEDOR-->
+        </li>
+        <!--INÍCIO MODAL CADASTRO-->
+        <li class="nav-item">
+          <a class="nav-link" href="#" data-toggle="modal" data-target=".bannerformmodal">Cadastre-se</a>
+          <div class="modal fade bannerformmodal" tabindex="-1" role="dialog" aria-labelledby="bannerformmodal"
+            aria-hidden="true">
+            <div class="modal-dialog modal-md">
+              <div class="modal-content">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                    <h3 class="modal-title font-weight-bold container" id="myModalLabel">CADASTRE-SE</h3>
+                  </div>
+                  <div class="modal-body">
+                    <form id="requestacallform" method="POST" name="requestacallform">
+                      <div class="form-group">
+                        <div class="input-group">
+                          <span class="input-group-addon"><i class="fa fa-user"></i></span>
+                          <input id="first_name" type="text" class="form-control" placeholder="Nome"
+                            name="first_name" />
+                        </div>
+                      </div>
+                      <div class="form-group">
+                        <div class="input-group">
+                          <span class="input-group-addon"><i class="fa fa-user"></i></span>
+                          <input id="last_name" type="text" class="form-control" placeholder="Sobrenome"
+                            name="last_name" />
+                        </div>
+                      </div>
+                      <div class="form-group">
+                        <div class="input-group">
+                          <span class="input-group-addon"><i class="fa fa-envelope"></i></span>
+                          <input id="email1" type="email" class="form-control" aria-describedby="emailHelp"
+                            placeholder="E-mail" name="email1" onchange="validateEmailAdd();" />
+                        </div>
+                        <small id="emailHelp" class="form-text text-muted">Seu e-mail não ficará disponível para outros
+                          usuários.</small>
+                      </div>
+
+                      <div class="form-group">
+                        <div class="input-group">
+                          <span class="input-group-addon"><i class="fa fa-password"></i></span>
+                          <input id="password" type="password" class="form-control" placeholder="Digite sua senha"
+                            name="password" />
+                        </div>
+                      </div>
+                      <div class="form-group">
+                        <div class="input-group">
+                          <span class="input-group-addon"><i class="fa fa-password"></i></span>
+                          <input id="password_repeat" type="password" class="form-control"
+                            placeholder="Digite novamente sua senha" name="password_repeat" />
+                        </div>
+                      </div>
+                      <div>
+                        <small>
+                          <input type="checkbox" name="termos" id="aceitar_termos">
+                          <label for="aceitar_termos">Aceito os termos e condições do site.</label>
+                        </small>
+                      </div>
+                      <div>
+                        <small>
+                          <input type="checkbox" name="novidades" id="receber_novidades">
+                          <label for="receber_novidades">Aceito receber e-mails com novidades.</label>
+                        </small>
+                      </div>
+                  </div>
+                  <div class="modal-footer">
+                    <button type="submit" class="btn btn-dark">ENVIAR</button>
+                  </div>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!--FIM MODAL CADASTRO-->
+        </li>
+      </ul>
+      <div>
+        <button class="btn btn-secondary" type="button" aria-haspopup="true" aria-expanded="false" data-toggle="modal"
+          data-target=".login">
+          LOGIN
+        </button>
+      </div>
+    </div>
+  </nav>
+  <!--FIM NAVBAR-->
+  <div class="container pt-7"><!--INICIO CONTAINER-->
+    <div class="container d-none d-md-block m-3"><!--MOSTRAR APENAS PARA TELAS GRANDES-->
+      <h2>
+        BEM VINDO AO SEU LUGAR FAVORITO PARA LER QUADRINHOS
+      </h2>
+    </div>
+    <div class="container d-xl-none d-lg-none d-md-none text-center m-1"><!--MOSTRAR APENAS PARA TELAS MENORES-->
+      <h4>
+        BEM VINDO AO SEU LUGAR FAVORITO PARA LER QUADRINHOS
+      </h4>
+    </div>
+    <div class=".dnone"><!--CAROUSEL RESPONSIVO-->
+      <div id="carouselExampleFade" class="carousel slide carousel-fade" data-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img class="d-block w-100" src="./images/carousel/bleach.jpg" alt="Primeiro Slide">
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="./images/carousel/dragon-ball.jpg" alt="Segundo Slide">
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="./images/carousel/One-piece.png" alt="Terceiro Slide">
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleFade" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Anterior</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleFade" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Próximo</span>
+        </a>
+      </div>
+    </div>
+    <!--FIM CAROUSEL RESPONSIVO-->
+
+      <!--INICIO CARDS QUADRINHOS-->
+      <div class="card d-inline-block m-2" style="width: 10rem;">
+          <img class="card-img-top" src="./images/capas_quadrinhos/one piece.jpg" alt="Imagem de capa do card">
+          <div class="card-body">
+            <p class="card-text"><a href="#" data-toggle="modal" data-target=".semLogin">One Piece</a></p>
+          </div>
+        </div>
+        <div class="card d-inline-block m-2" style="width: 10rem;">
+          <img class="card-img-top" src="./images/capas_quadrinhos/dragon ball.jpg" alt="Imagem de capa do card">
+          <div class="card-body">
+            <p class="card-text"><a href="#" data-toggle="modal" data-target=".semLogin">Dragon Ball</a></p>
+          </div>
+        </div>
+        <div class="card d-inline-block m-2" style="width: 10rem;">
+          <img class="card-img-top" src="./images/capas_quadrinhos/death note.jpg" alt="Imagem de capa do card">
+          <div class="card-body">
+            <p class="card-text"><a href="#" data-toggle="modal" data-target=".semLogin">Death Note‎</a></p>
+          </div>
+        </div>
+        <div class="card d-inline-block m-2" style="width: 10rem;">
+          <img class="card-img-top" src="./images/capas_quadrinhos/bleach.jpg" alt="Imagem de capa do card">
+          <div class="card-body">
+            <p class="card-text"><a href="#" data-toggle="modal" data-target=".semLogin">Bleach</a></p>
+          </div>
+        </div>
+        <div class="card d-inline-block m-2" style="width: 10rem;">
+          <img class="card-img-top" src="./images/capas_quadrinhos/naruto.png" alt="Imagem de capa do card">
+          <div class="card-body">
+            <p class="card-text"><a href="#" data-toggle="modal" data-target=".semLogin">Naruto</a></p>
+          </div>
+        </div>
+        <div class="card d-inline-block m-2" style="width: 10rem;">
+          <img class="card-img-top" src="./images/capas_quadrinhos/slam dunk.jpg" alt="Imagem de capa do card">
+          <div class="card-body">
+            <p class="card-text"><a href="#" data-toggle="modal" data-target=".semLogin">Slam Dunk</a></p>
+          </div>
+        </div>
+      <!--FIM CARDS QUADRINHOS-->
+      
+        <!--INICIO CARDS QUADRINHOS-->
+        <div class="card d-inline-block m-2" style="width: 10rem;">
+          <img class="card-img-top" src="./images/capas_quadrinhos/The gamer.jpg" alt="Imagem de capa do card">
+          <div class="card-body">
+            <p class="card-text"><a href="#" data-toggle="modal" data-target=".semLogin">The Gamer</a></p>
+          </div>
+        </div>
+        <div class="card d-inline-block m-2" style="width: 10rem;">
+          <img class="card-img-top" src="./images/capas_quadrinhos/yu-gi-oh-.png" alt="Imagem de capa do card">
+          <div class="card-body">
+            <p class="card-text"><a href="#" data-toggle="modal" data-target=".semLogin">Yu-Gi-Oh</a></p>
+          </div>
+        </div>
+        <div class="card d-inline-block m-2" style="width: 10rem;">
+          <img class="card-img-top" src="./images/capas_quadrinhos/cap america.png" alt="Imagem de capa do card">
+          <div class="card-body">
+            <p class="card-text"><a href="#" data-toggle="modal" data-target=".semLogin">Cap América</a></p>
+          </div>
+        </div>
+        <div class="card d-inline-block m-2" style="width: 10rem;">
+          <img class="card-img-top" src="./images/capas_quadrinhos/cap america 50 anos.png" alt="Imagem de capa do card">
+          <div class="card-body">
+            <p class="card-text"><a href="#" data-toggle="modal" data-target=".semLogin">Cap América</a></p>
+          </div>
+        </div>
+        <div class="card d-inline-block m-2" style="width: 10rem;">
+          <img class="card-img-top" src="./images/capas_quadrinhos/sup man.png" alt="Imagem de capa do card">
+          <div class="card-body">
+            <p class="card-text"> <a href="#" data-toggle="modal" data-target=".semLogin">Super Homem</a></p>
+          </div>
+        </div>
+        <div class="card d-inline-block m-2" style="width: 10rem;">
+          <img class="card-img-top" src="./images/capas_quadrinhos/godzilla.png" alt="Imagem de capa do card">
+          <div class="card-body">
+            <p class="card-text"><a href="#" data-toggle="modal" data-target=".semLogin">Godzilla‎</a></p>
+          </div>
+        </div>
+      <!--FIM CARDS QUADRINHOS-->
+    </div> <!--FIM CONTAINER-->
+  
+
+
+
+
+    <!--MODAL ADVERTÊNCIA-->
+    <div class="modal fade semLogin" tabindex="-1" role="dialog" aria-labelledby="semLogin" aria-hidden="false">
+      <div class="modal-dialog modal-xl">
+        <div class="modal-content">
+          <div class="modal-body">
+            <h1 class="text-danger"> Você deve fazer login para acessar o conteúdo do site!</h1>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-dark" data-dismiss="modal">Entendi</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--FIM MODAL ADVERTÊNCIA-->
+
+
+    <!--MODAL LOGIN-->
+    <div class="modal fade login" tabindex="-1" role="dialog" aria-labelledby="login" aria-hidden="false">
+      <div class="modal-dialog modal-md">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h3 class=" align-content-">LOGIN</h3>
+          </div>
+          <div class="modal-body text-center">
+            <form>
+              <div class=" p-3">
+                <label for="login">Email:</label>
+                <input type="text" id="login" name="login" value="leonardo_lemos@outlook.com.br">
+              </div>
+              <div class=" pb-3">
+                <label for="password">Senha:</label>
+                <input type="text" id="password" name="login" value="●●●●●●●●●●●">
+              </div>
+              <div>
+                <a href="./pagina2.html" class="btn btn-primary">Login</a>
+              </div>
+            </form>
+          </div>
+          <div class="modal-footer text-center">
+            <div id="formFooter">
+              <a class="underlineHover" href="#"><i>Esqueceu sua senha?</i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--FIM MODAL LOGIN-->
+    <script src="./node_modules/jquery.js/jquery.js"></script>
+    <script src="./node_modules/jquery.js/jquery.js"></script>
+    <script src="./node_modules/bootstrap.js/bootstrap.js"></script>
+</body>
+
+</html>
+</div>

@@ -1,0 +1,559 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="icon" href="./images/fav-icon.png">
+  <link rel="stylesheet" href="./node_modules/bootstrap.css/bootstrap.css">
+  <link rel="import" href="modal.html">
+  <title>QUADRINHOS LEMOS </title>
+</head>
+
+<body>
+  <!--INÍCIO NAVBAR-->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03"
+      aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Alterna navegação">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <a class="navbar-brand" href="#"><img class="logo" src="./images/logotipo - quadrinhos.png"
+        alt="LOGOTIPO QUADRINHOS LEMOS"></a>
+
+    <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+      <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+        <li class="nav-item active">
+          <a class="nav-link" href="#">Home</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown"
+            aria-haspopup="true" aria-expanded="false">
+            HQs Antigas
+          </a>
+          <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+            <a class="dropdown-item" href="#" data-toggle="modal" data-target=".capAmerica">Capitão América - Ameaça
+              Vermelha</a>
+            <a class="dropdown-item" href="#" data-toggle="modal" data-target=".capAmerica50anos">Capitão América - 50
+              Anos</a>
+            <a class="dropdown-item" href="#" data-toggle="modal" data-target=".superhomem">A Morte do Super Homem</a>
+            <a class="dropdown-item" href="#" data-toggle="modal" data-target=".bpdp">B.P.D.P.</a>
+            <a class="dropdown-item" href="#" data-toggle="modal" data-target=".godzilla">Godzilla‎</a>
+
+
+
+          </div>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown"
+            aria-haspopup="true" aria-expanded="false">
+            Mangás
+          </a>
+          <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+            <a class="dropdown-item" href="#" data-toggle="modal" data-target=".onepiece">One Piece</a>
+            <a class="dropdown-item" href="#" data-toggle="modal" data-target=".dragonBall">Dragon Ball</a>
+            <a class="dropdown-item" href="#" data-toggle="modal" data-target=".deathNote">Death Note‎</a>
+            <a class="dropdown-item" href="#" data-toggle="modal" data-target=".bleach">Bleach</a>
+            <a class="dropdown-item" href="#" data-toggle="modal" data-target=".naruto">Naruto</a>
+            <a class="dropdown-item" href="#" data-toggle="modal" data-target=".slamDunk">Slam Dunk</a>
+            <a class="dropdown-item" href="#" data-toggle="modal" data-target=".theGamer">The Gamer</a>
+            <a class="dropdown-item" href="#" data-toggle="modal" data-target=".yugioh">Yu-Gi-Oh</a>
+
+          </div>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown"
+            aria-haspopup="true" aria-expanded="false">
+            Infantis</a>
+          <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+            <a class="dropdown-item" href="#" data-toggle="modal" data-target=".monicaJovem">Turma da Mônica Jovem</a>
+            <a class="dropdown-item" href="#" data-toggle="modal" data-target=".turmaMonica">Turma da Mônica</a>
+          </div>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="#" data-toggle="modal" data-target=".sobreDesenvolvedor">Sobre o Desenvolvedor</a>
+          
+          <!--MODAL SOBRE DESENVOLVEDOR-->
+          <div class="modal fade sobreDesenvolvedor">
+            <div class="modal-dialog modal-md">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <img src="images/leonardo_lemos.jpg" alt="Leonardo Lemos" width="40%"  class="rounded-circle" />
+                    <div class="modal-body">
+                        <h4>LEONARDO LEMOS</h4>
+                        <div>
+                          <ul>
+                            <li>Jan 30, 1997</li>
+                            <li>Téc. Desenv. de Sistemas</li>
+                            <li>1º Módulo</li>
+                          </ul>
+                          <p>leonardo_lemos@outlook.com.br</p>
+                        </div>
+                        <div>
+                          <span>
+                            <a href="https://www.linkedin.com/in/leonardo-lemos-de-oliveira/" class="btn btn-info" target="_blank">LINKEDIN</a>
+                          </span>
+                          <span>
+                            <a href="https://github.com/dev-Lemos" class="btn btn-dark" target="_blank">GITHUB</a>
+                          </span>
+                          <span>
+                            <a href="#" class="btn btn-danger" data-dismiss="modal">x</a>
+                          </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+          <!--FIM MODAL SOBRE DESENVOLVEDOR-->
+        </li>
+      </ul>
+      <div class="dropdown">
+        <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown"
+          aria-haspopup="true" aria-expanded="false">
+          Leonardo Lemos
+        </button>
+        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+          <a class="dropdown-item" href="#">Minha Conta</a>
+          <a class="dropdown-item" href="#">Configurações</a>
+          <a class="dropdown-item" href="index.html">Sair</a>
+        </div>
+      </div>
+    </div>
+  </nav>
+  <!--FIM NAVBAR-->
+  <div class="container pt-7">
+    <!--INICIO CONTAINER-->
+    <div class="container d-none d-md-block m-3">
+      <!--MOSTRAR APENAS PARA TELAS GRANDES-->
+      <h2>
+        BEM VINDO AO SEU LUGAR FAVORITO PARA LER QUADRINHOS
+      </h2>
+    </div>
+    <div class="container d-xl-none d-lg-none d-md-none text-center m-1">
+      <!--MOSTRAR APENAS PARA TELAS MENORES-->
+      <h4>
+        BEM VINDO AO SEU LUGAR FAVORITO PARA LER QUADRINHOS
+      </h4>
+    </div>
+    <div class=".dnone">
+      <!--CAROUSEL RESPONSIVO-->
+      <div id="carouselExampleFade" class="carousel slide carousel-fade" data-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img class="d-block w-100" src="./images/carousel/bleach.jpg" alt="Primeiro Slide">
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="./images/carousel/dragon-ball.jpg" alt="Segundo Slide">
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="./images/carousel/One-piece.png" alt="Terceiro Slide">
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleFade" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Anterior</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleFade" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Próximo</span>
+        </a>
+      </div>
+    </div>
+    <!--FIM CAROUSEL RESPONSIVO-->
+    <div class="m-3">
+      <h2>
+        MAIS LIDOS:
+      </h2>
+    </div>
+
+    <div>
+      <!--INICIO CARDS QUADRINHOS-->
+      <div class="card d-inline-block m-2" style="width: 10rem;">
+        <img class="card-img-top" src="./images/capas_quadrinhos/one piece.jpg" alt="Imagem de capa do card">
+        <div class="card-body">
+          <p class="card-text"><a href="#" data-toggle="modal" data-target=".onepiece">One Piece</a></p>
+        </div>
+      </div>
+      <div class="card d-inline-block m-2" style="width: 10rem;">
+        <img class="card-img-top" src="./images/capas_quadrinhos/dragon ball.jpg" alt="Imagem de capa do card">
+        <div class="card-body">
+          <p class="card-text"><a href="#" data-toggle="modal" data-target=".dragonBall">Dragon Ball</a></p>
+        </div>
+      </div>
+      <div class="card d-inline-block m-2" style="width: 10rem;">
+        <img class="card-img-top" src="./images/capas_quadrinhos/death note.jpg" alt="Imagem de capa do card">
+        <div class="card-body">
+          <p class="card-text"><a href="#" data-toggle="modal" data-target=".deathNote">Death Note‎</a></p>
+        </div>
+      </div>
+      <div class="card d-inline-block m-2" style="width: 10rem;">
+        <img class="card-img-top" src="./images/capas_quadrinhos/bleach.jpg" alt="Imagem de capa do card">
+        <div class="card-body">
+          <p class="card-text"><a href="#" data-toggle="modal" data-target=".bleach">Bleach</a></p>
+        </div>
+      </div>
+      <div class="card d-inline-block m-2" style="width: 10rem;">
+        <img class="card-img-top" src="./images/capas_quadrinhos/naruto.png" alt="Imagem de capa do card">
+        <div class="card-body">
+          <p class="card-text"><a href="#" data-toggle="modal" data-target=".naruto">Naruto</a></p>
+        </div>
+      </div>
+      <div class="card d-inline-block m-2" style="width: 10rem;">
+        <img class="card-img-top" src="./images/capas_quadrinhos/slam dunk.jpg" alt="Imagem de capa do card">
+        <div class="card-body">
+          <p class="card-text"><a href="#" data-toggle="modal" data-target=".slamDunk">Slam Dunk</a></p>
+        </div>
+      </div>
+    </div>
+    <!--FIM CARDS QUADRINHOS-->
+    <div class="align-content-center">
+      <!--INICIO CARDS QUADRINHOS-->
+      <div class="card d-inline-block m-2" style="width: 10rem;">
+        <img class="card-img-top" src="./images/capas_quadrinhos/The gamer.jpg" alt="Imagem de capa do card">
+        <div class="card-body">
+          <p class="card-text"><a href="#" data-toggle="modal" data-target=".theGamer">The Gamer</a></p>
+        </div>
+      </div>
+      <div class="card d-inline-block m-2" style="width: 10rem;">
+        <img class="card-img-top" src="./images/capas_quadrinhos/yu-gi-oh-.png" alt="Imagem de capa do card">
+        <div class="card-body">
+          <p class="card-text"><a href="#" data-toggle="modal" data-target=".yugioh">Yu-Gi-Oh</a></p>
+        </div>
+      </div>
+      <div class="card d-inline-block m-2" style="width: 10rem;">
+        <img class="card-img-top" src="./images/capas_quadrinhos/cap america.png" alt="Imagem de capa do card">
+        <div class="card-body">
+          <p class="card-text"><a href="#" data-toggle="modal" data-target=".capAmerica">Cap América</a></p>
+        </div>
+      </div>
+      <div class="card d-inline-block m-2" style="width: 10rem;">
+        <img class="card-img-top" src="./images/capas_quadrinhos/cap america 50 anos.png" alt="Imagem de capa do card">
+        <div class="card-body">
+          <p class="card-text"><a href="#" data-toggle="modal" data-target=".capAmerica50anos">Cap América</a></p>
+        </div>
+      </div>
+      <div class="card d-inline-block m-2" style="width: 10rem;">
+        <img class="card-img-top" src="./images/capas_quadrinhos/sup man.png" alt="Imagem de capa do card">
+        <div class="card-body">
+          <p class="card-text"> <a href="#" data-toggle="modal" data-target=".superhomem">Super Homem</a></p>
+        </div>
+      </div>
+      <div class="card d-inline-block m-2" style="width: 10rem;">
+        <img class="card-img-top" src="./images/capas_quadrinhos/godzilla.png" alt="Imagem de capa do card">
+        <div class="card-body">
+          <p class="card-text"><a href="#" data-toggle="modal" data-target=".godzilla">Godzilla‎</a></p>
+        </div>
+      </div>
+    </div>
+    <!--FIM CARDS QUADRINHOS-->
+  </div>
+  <!--FIM CONTAINER-->
+
+
+
+  <!--INÍCIO HQS ANTIGAS-->
+
+  <!--MODAL CAP AMERICA - AM VERM-->
+  <div class="modal fade capAmerica" tabindex="-1" role="dialog" aria-labelledby="capAmerica" aria-hidden="false">
+    <div class="modal-dialog modal-xl">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h3 class="modal-title font-weight-bold container" id="capAmerica">CAPITÃO AMÉRICA - AMEAÇA VERMELHA</h3>
+        </div>
+        <div class="modal-body">
+          <embed src="./revistas/antigos/Capitão América V5 15 Ameaça Vermelha 01 (2006).pdf#zoom=100" frameborder="0"
+            width="100%" height="400px">
+          <div class="modal-footer">
+            <button type="button" class="btn btn-dark" data-dismiss="modal">Sair</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--FIM CAP AMERICA - AM VERM-->
+
+  <!--MODAL CAP AMERICA - 50 ANOS-->
+  <div class="modal fade capAmerica50anos" tabindex="-1" role="dialog" aria-labelledby="capAmerica50anos"
+    aria-hidden="false">
+    <div class="modal-dialog modal-xl">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h3 class="modal-title font-weight-bold container" id="capAmerica50anos">CAPITÃO AMÉRICA - 50 ANOS</h3>
+        </div>
+        <div class="modal-body">
+          <embed src="./revistas/antigos/Capitão América - Edição Extra Comemorativa de 50 Anos (1991).PDF#zoom=100"
+            frameborder="0" width="100%" height="400px">
+          <div class="modal-footer">
+            <button type="button" class="btn btn-dark" data-dismiss="modal">Sair</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--FIM CAP AMERICA - 50 ANOS-->
+
+  <!--MODAL SUPER HOMEM-->
+  <div class="modal fade superhomem" tabindex="-1" role="dialog" aria-labelledby="superhomem" aria-hidden="false">
+    <div class="modal-dialog modal-xl">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h3 class="modal-title font-weight-bold container" id="superhomem">A MORTE DO SUPER HOMEM</h3>
+        </div>
+        <div class="modal-body">
+          <embed src="./revistas/antigos/A Morte do Super Homem.PDF#zoom=100" frameborder="0" width="100%"
+            height="400px">
+          <div class="modal-footer">
+            <button type="button" class="btn btn-dark" data-dismiss="modal">Sair</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--FIM SUPER HOMEM-->
+
+  <!--MODAL B.P.D.P-->
+  <div class="modal fade bpdp" tabindex="-1" role="dialog" aria-labelledby="bpdp" aria-hidden="false">
+    <div class="modal-dialog modal-xl">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h3 class="modal-title font-weight-bold container" id="bpdp">B.P.D.P</h3>
+        </div>
+        <div class="modal-body">
+          <embed src="./revistas/antigos/B.P.D.P. 13 - Os Mortos 01 (2004).pdf#zoom=100" frameborder="0" width="100%"
+            height="400px">
+          <div class="modal-footer">
+            <button type="button" class="btn btn-dark" data-dismiss="modal">Sair</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--FIM B.P.D.P-->
+
+  <!--MODAL GODZILLA-->
+  <div class="modal fade godzilla" tabindex="-1" role="dialog" aria-labelledby="godzilla" aria-hidden="false">
+    <div class="modal-dialog modal-xl">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h3 class="modal-title font-weight-bold container" id="godzilla">GODZILLA--</h3>
+        </div>
+        <div class="modal-body">
+          <embed src="./revistas/antigos/Godzilla (1988) 01.PDF#zoom=100" frameborder="0" width="100%" height="400px">
+          <div class="modal-footer">
+            <button type="button" class="btn btn-dark" data-dismiss="modal">Sair</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--FIM GODZILLA-->
+
+  <!--FIM HQS ANTIGAS-->
+
+
+
+
+
+  <!--MANGAS-->
+
+
+
+  <!--MODAL ONE PIECE-->
+  <div class="modal fade onepiece" tabindex="-1" role="dialog" aria-labelledby="onepiece" aria-hidden="false">
+    <div class="modal-dialog modal-xl">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h3 class="modal-title font-weight-bold container" id="onepiece">ONE PIECE</h3>
+        </div>
+        <div class="modal-body">
+          <embed src="./revistas/mangas/OnePiece37.pdf#zoom=100" frameborder="0" width="100%" height="400px">
+          <div class="modal-footer">
+            <button type="button" class="btn btn-dark" data-dismiss="modal">Sair</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--FIM ONE PIECE-->
+
+  <!--MODAL DRAGON BALL-->
+  <div class="modal fade dragonBall" tabindex="-1" role="dialog" aria-labelledby="dragonBall" aria-hidden="false">
+    <div class="modal-dialog modal-xl">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h3 class="modal-title font-weight-bold container" id="dragonBall">DRAGON BALL</h3>
+        </div>
+        <div class="modal-body">
+          <embed src="./revistas/mangas/DragonBall02.pdf#zoom=100" frameborder="0" width="100%" height="400px">
+          <div class="modal-footer">
+            <button type="button" class="btn btn-dark" data-dismiss="modal">Sair</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--FIM DRAGON BALL-->
+
+
+  <!--MODAL DEATH NOTE-->
+  <div class="modal fade deathNote" tabindex="-1" role="dialog" aria-labelledby="deathNote" aria-hidden="false">
+    <div class="modal-dialog modal-xl">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h3 class="modal-title font-weight-bold container" id="deathNote">DEATH NOTE</h3>
+        </div>
+        <div class="modal-body">
+          <embed src="./revistas/mangas/Death Note Volume 01 - Tsugumi Ohba.pdf#zoom=100" frameborder="0" width="100%"
+            height="400px">
+          <div class="modal-footer">
+            <button type="button" class="btn btn-dark" data-dismiss="modal">Sair</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--FIM DEATH NOTE-->
+
+  <!--MODAL BLEACH-->
+  <div class="modal fade bleach" tabindex="-1" role="dialog" aria-labelledby="bleach" aria-hidden="false">
+    <div class="modal-dialog modal-xl">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h3 class="modal-title font-weight-bold container" id="bleach">BLEACH</h3>
+        </div>
+        <div class="modal-body">
+          <embed src="./revistas/mangas/Bleach 684 - Tite Kubo.pdf#zoom=100" frameborder="0" width="100%"
+            height="400px">
+          <div class="modal-footer">
+            <button type="button" class="btn btn-dark" data-dismiss="modal">Sair</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--FIM BLEACH-->
+
+  <!--MODAL NARUTO-->
+  <div class="modal fade naruto" tabindex="-1" role="dialog" aria-labelledby="naruto" aria-hidden="false">
+    <div class="modal-dialog modal-xl">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h3 class="modal-title font-weight-bold container" id="naruto">NARUTO</h3>
+        </div>
+        <div class="modal-body">
+          <embed src="./revistas/mangas/Naruto 90 - Masashi Kishimoto.pdf#zoom=100" frameborder="0" width="100%"
+            height="400px">
+          <div class="modal-footer">
+            <button type="button" class="btn btn-dark" data-dismiss="modal">Sair</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--FIM NARUTO-->
+
+  <!--MODAL SLAM DUNK-->
+  <div class="modal fade slamDunk" tabindex="-1" role="dialog" aria-labelledby="slamDunk" aria-hidden="false">
+    <div class="modal-dialog modal-xl">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h3 class="modal-title font-weight-bold container" id="slamDunk">SLAM DUNK</h3>
+        </div>
+        <div class="modal-body">
+          <embed src="./revistas/mangas/SlamDunk18.1.pdf#zoom=100" frameborder="0" width="100%" height="400px">
+          <div class="modal-footer">
+            <button type="button" class="btn btn-dark" data-dismiss="modal">Sair</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--FIM SLAM DUNK-->
+
+  <!--MODAL THE GAMER-->
+  <div class="modal fade theGamer" tabindex="-1" role="dialog" aria-labelledby="theGamer" aria-hidden="false">
+    <div class="modal-dialog modal-xl">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h3 class="modal-title font-weight-bold container" id="theGamer">THE GAMER</h3>
+        </div>
+        <div class="modal-body">
+          <embed src="./revistas/mangas/the gamer.pdf#zoom=100" frameborder="0" width="100%" height="400px">
+          <div class="modal-footer">
+            <button type="button" class="btn btn-dark" data-dismiss="modal">Sair</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--FIM THE GAMER-->
+
+  <!--MODAL YUGIOH-->
+  <div class="modal fade yugioh" tabindex="-1" role="dialog" aria-labelledby="yugioh" aria-hidden="false">
+    <div class="modal-dialog modal-xl">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h3 class="modal-title font-weight-bold container" id="yugioh">OPS, QUADRINHO NÃO ENCONTRADO :(</h3>
+        </div>
+        <div class="modal-body">
+          <div class="modal-footer">
+            <button type="button" class="btn btn-dark" data-dismiss="modal">Sair</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--FIM YUGIOH-->
+
+  <!--FIM MANGAS-->
+
+
+  <!--INFANTIS-->
+  <!--MODAL TURMA DA MÔNICA JOVEM-->
+  <div class="modal fade monicaJovem" tabindex="-1" role="dialog" aria-labelledby="monicaJovem" aria-hidden="false">
+    <div class="modal-dialog modal-xl">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h3 class="modal-title font-weight-bold container" id="monicaJovem">TURMA DA MÔNICA JOVEM</h3>
+        </div>
+        <div class="modal-body">
+          <embed src="./revistas/infantis/turma_da_monica_jovem.pdf#zoom=100" frameborder="0" width="100%"
+            height="400px">
+          <div class="modal-footer">
+            <button type="button" class="btn btn-dark" data-dismiss="modal">Sair</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--FIM TURMA DA MÔNICA JOVEM-->
+  <!--MODAL TURMA DA MONICA - AGUA BOA-->
+  <div class="modal fade turmaMonica" tabindex="-1" role="dialog" aria-labelledby="turmaMonica" aria-hidden="false">
+    <div class="modal-dialog modal-xl">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h3 class="modal-title font-weight-bold container" id="monicaJovem">TURMA DA MONICA</h3>
+        </div>
+        <div class="modal-body">
+          <embed src="./revistas/infantis/monica_agua_boa.pdf#zoom=100" frameborder="0" width="100%" height="400px">
+          <div class="modal-footer">
+            <button type="button" class="btn btn-dark" data-dismiss="modal">Sair</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--FIM TURMA DA MONICA - AGUA BOA-->
+  <!--FIM INFANTIS-->
+
+
+
+
+  <script src="./node_modules/jquery.js/jquery.js"></script>
+  <script src="./node_modules/jquery.js/jquery.js"></script>
+  <script src="./node_modules/bootstrap.js/bootstrap.js"></script>
+</body>
+
+</html>
